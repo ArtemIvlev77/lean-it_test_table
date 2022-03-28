@@ -1,0 +1,54 @@
+.table {
+  border: 2px solid #343434;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.table__row:nth-of-type(2n) {
+  background-color: #e7e3e3;
+}
+
+
+.table__header {
+  border-bottom: 1px solid #343434;
+  text-align: left;
+  height: 30px;
+}
+
+.table__header span {
+  margin-left: 20px;
+}
+
+.table__header button {
+  width: 20px;
+  height: 30px;
+  margin-right: 15px;
+  background-color: aqua;
+  border-radius: 20px;
+  
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+thead button.ascending::before {
+  content: '👇';
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  left: -7px;
+}
+
+thead button.descending::before {
+  position: relative;
+  top: 0px;
+  left: -7px;
+  content: '☝️';
+  display: inline-block;
+}

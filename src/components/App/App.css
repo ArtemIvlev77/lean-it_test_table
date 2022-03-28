@@ -1,0 +1,6 @@
+.App {
+  margin: 0 auto;
+  max-width: 1440px;
+  display: grid;
+  flex: 1;
+}
