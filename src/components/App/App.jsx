@@ -4,7 +4,7 @@ import { dataGenerator } from '../../utils/dataGenerator';
 import { useMemo, useState } from 'react';
 
 function App() {
-  const data = useMemo(() => dataGenerator(10000), []);
+  const data = useMemo(() => dataGenerator(1000001), []);
   const [updateData, setUpdateData] = useState(data);
   const generateHandler = (e) => {
     e.preventDefault();
