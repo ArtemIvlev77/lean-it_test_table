@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lean-it_test_table/static/css/main.68a7729d.css",
+    "main.js": "/lean-it_test_table/static/js/main.0935f9e6.js",
+    "index.html": "/lean-it_test_table/index.html",
+    "main.68a7729d.css.map": "/lean-it_test_table/static/css/main.68a7729d.css.map",
+    "main.0935f9e6.js.map": "/lean-it_test_table/static/js/main.0935f9e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68a7729d.css",
+    "static/js/main.0935f9e6.js"
+  ]
+}
